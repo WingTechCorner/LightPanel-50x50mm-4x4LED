@@ -1,0 +1,91 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# JLCPCB-KiCad_WHITE_LED
+#
+DEF JLCPCB-KiCad_WHITE_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "JLCPCB-KiCad_WHITE_LED" 0 -100 50 H V C CNN
+F2 "Diode_SMD:D_0603_1608Metric" 0 0 0 H I C CNN
+F3 "" 0 0 0 H I C CNN
+F4 "LED_0603" 0 0 0 H I C CNN "PACKAGE"
+F5 "C2290" 0 0 50 H I C CNN "LSCSPART"
+F6 "C2290" 0 0 50 H I C CNN "JLCPCBPART"
+F7 "2.37ma" 0 0 50 H I C CNN "3v3-470R"
+F8 "9.8ma" 0 0 50 H I C CNN "3v3-100R"
+F9 "18.67ma" 0 0 50 H I C CNN "3v3-50R"
+F10 "18ma" 0 0 50 H I C CNN "5v-150R"
+F11 "13.31ma" 0 0 50 H I C CNN "5v-200R"
+F12 "5.81ma" 0 0 50 H I C CNN "5v-470R"
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-R_75Ohms-±1%-1_16W-0402
+#
+DEF jlcpcb-R_75Ohms-±1%-1_16W-0402 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "jlcpcb-R_75Ohms-±1%-1_16W-0402" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -70 0 0 V I C CNN
+F3 "" 0 0 0 H I C CNN
+F4 "C25133" 0 0 0 H I C CNN "JLCPCB"
+F5 "C25133 0402WGF750JTCE Uniroyal Elec Chip Resistor - Surface Mount 75Ohms ±1% 1/16W 0402 RoHS" 0 0 0 H I C CNN "Description"
+F6 "C25133" 0 0 0 H I C CNN "LCSC"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
